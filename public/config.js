@@ -4,7 +4,14 @@
 var ApplicationConfiguration = (function() {
 	// Init module configuration options
 	var applicationModuleName = 'hrmanager';
-	var applicationModuleVendorDependencies = ['ngResource', 'ui.router', 'ui.bootstrap', 'ui.utils'];
+	var applicationModuleVendorDependencies = [
+		'ngResource',
+		'ui.router',
+		'ui.bootstrap',
+		'ui.utils',
+		'ngAnimate',
+		'ngMaterial'
+	];
 
 	// Add a new vertical module
 	var registerModule = function(moduleName, dependencies) {
